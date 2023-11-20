@@ -1,8 +1,8 @@
 :root {
     --color-heading: hsl(0, 1%, 17%);
-    --color-body: #88878b;
+    --color-body: #7a7a7c;
     --color-accent: #f54519;
-
+    
 }
 
 html {
@@ -84,3 +84,32 @@ a {
         font-size: 1.5rem;
     }
 }
+
+/* lists */
+.list {
+    list-style: none;
+}
+
+.list--inline {
+    display: flex;
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.list--inline .list__item {
+    margin: 0 1.3rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--color-body);
+}
+
+.list--inline a {
+    color: var(--color-body);
+}
+
+.list--inline a:hover {
+    color: var(--color-accent);
+}
+
+/* Icons */
