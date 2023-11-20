@@ -1,6 +1,8 @@
 :root {
-    --color-heading: hsl(0, 0%, 13%);
+    --color-heading: hsl(0, 1%, 17%);
     --color-body: #88878b;
+    --color-accent: #f54519;
+
 }
 
 html {
@@ -53,4 +55,32 @@ h3 {
     h3 {
         font-size: 3.5rem;
     }   
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+.link-arrow {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--color-heading);
+}
+
+.link-arrow::after {
+    content: ">";
+    margin-left: 1rem;
+    transition: margin 0.3s;
+}
+
+.link-arrow:hover::after {
+    margin-left: 18px;
+}
+
+@media screen and (min-width: 1024px) {
+    .link-arrow {
+        font-size: 1.5rem;
+    }
 }
