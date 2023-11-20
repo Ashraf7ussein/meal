@@ -1,0 +1,56 @@
+:root {
+    --color-heading: hsl(0, 0%, 13%);
+    --color-body: #88878b;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Typography */
+body {
+    font-family: 'Open Sans' ,Arial, Helvetica, sans-serif;
+    font-size: 2.2rem;
+    line-height: 1.6;
+    color: var(--color-body);
+}
+
+p {
+    margin-top: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto' ,Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+    color: var(--color-heading);
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3.8rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 7rem;
+    }
+    
+    h2 {
+        font-size: 5rem;
+    }
+    
+    h3 {
+        font-size: 3.5rem;
+    }   
+}
