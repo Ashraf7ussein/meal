@@ -113,3 +113,16 @@ a {
 }
 
 /* Icons */
+.icon {
+    width: 80px;
+    height: 80px;
+}
+
+.icon--small {
+    width: 30px;
+    height: 30px;
+}
+
+.icon--accent {
+    fill: var(--color-accent);
+}
