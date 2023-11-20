@@ -1,8 +1,13 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 :root {
     --color-heading: hsl(0, 1%, 17%);
     --color-body: #7a7a7c;
     --color-accent: #f54519;
-    
 }
 
 html {
@@ -60,7 +65,9 @@ h3 {
 /* Links */
 a {
     text-decoration: none;
+    color: var(--color-heading);
 }
+
 
 .link-arrow {
     font-size: 1.6rem;
@@ -125,4 +132,52 @@ a {
 
 .icon--accent {
     fill: var(--color-accent);
+}
+
+/* Buttons */
+.btn{
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: 0;
+    padding: 2rem 7rem;
+}
+
+.btn--outline {
+    border: 2px solid #000;
+    background: none;
+    border-radius: 5px;
+}
+
+.btn--outline:hover {
+    border: 2px solid #fff;
+    color: var(--color-heading);
+    background: #fff;
+}
+
+.btn--stretched{
+    padding: 1.2rem 12rem;
+}
+
+.btn--small {
+    padding: 1rem 1rem;
+}
+
+.btn--accent {
+    color: var(--color-accent);
+    border: 2px solid var(--color-accent);
+}
+
+.btn--accent:hover {
+    color: #000;
+    background: var(--color-accent);
+}
+
+@media screen and (min-width: 1024px) {
+    .btn {
+        font-size: 1.5rem;
+    }
 }
