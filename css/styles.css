@@ -204,3 +204,18 @@ input:focus, input:hover {
         font-size: 1.5rem;
     }
 }
+
+.grid {
+    display: grid;
+}
+
+@media screen and (min-width: 768px) {
+    .grid--3x3 {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        max-width: 120rem;
+        margin: 0 auto;
+        justify-items: center;
+        align-items: center;
+    }
+}
