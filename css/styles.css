@@ -10,6 +10,10 @@
     --color-accent: #f54519;
 }
 
+img {
+    width: 100%;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -311,4 +315,29 @@ input:focus, input:hover {
     border: 2px solid var(--color-heading);
     padding: 8px 18px;
     margin: 0;
+}
+
+/* dishes */
+.dish {
+    display: flex;
+    max-width: 100rem;
+    padding-bottom: 7rem;
+    border-bottom: 1px solid var(--color-body);
+}
+
+.dish__image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 3.5rem;
+}
+
+.dish__heading {
+    margin-top: 0;
+}
+
+.dish__price {
+    color: var(--color-accent);
+    font-size: 3rem;
 }
