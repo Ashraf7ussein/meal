@@ -7,6 +7,7 @@
 :root {
     --color-heading: hsl(0, 1%, 17%);
     --color-body: #7a7a7c;
+    --color-body-light: #f8f8f8;
     --color-accent: #f54519;
 }
 
@@ -368,4 +369,30 @@ input:focus, input:hover {
 
 .intro__heading {
     color: #fff;
+}
+
+/* gallery */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-body-light);
+    margin-top: 30rem;
+    padding: 5rem 0;
+}
+
+.gallery__body {
+    text-align: center;
+}
+
+/* content */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__body {
+    padding: 2rem 0;
+    text-align: center;
 }
