@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
@@ -34,14 +35,33 @@
         <h1 class="intro__heading">Welcome to Meal</h1>
         <a class="btn btn--outline btn--stretched" href="#">Reserve a Table</a>
       </section>
-      <section class="gallery">
-        <h2 class="gallery__header">Find your best food</h2>
+      <section class="gallery block">
+        <h2 class="gallery__header" data-aos="fade-up">Find your best food</h2>
         <p class="gallery__body">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
         </p>
         <div class="grid grid--3x3">
+          <img src="images/bg5.jpg" alt="" />
           <div class="content">
-            <h3>Beef</h3>
+            <h3>Food</h3>
+            <p class="content__body">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+              officiis voluptate repellendus sed ipsum quod.
+            </p>
+            <a class="link-arrow" href="#">Learn more</a>
+          </div>
+          <img src="images/bg7.jpg" alt="" />
+          <div class="content">
+            <h3>Food</h3>
+            <p class="content__body">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+              officiis voluptate repellendus sed ipsum quod.
+            </p>
+            <a class="link-arrow" href="#">Learn more</a>
+          </div>
+          <img src="images/bg2.jpg" alt="" />
+          <div class="content">
+            <h3>Food</h3>
             <p class="content__body">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
               officiis voluptate repellendus sed ipsum quod.
@@ -50,7 +70,241 @@
           </div>
         </div>
       </section>
+      <section class="restaurant">
+        <h2 class="restaurant__heading" data-aos="fade-up">The Restaurant</h2>
+        <p class="restaurant__body">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
+          ducimus debitis nobis ut minus cupiditate asperiores, sunt nulla
+          inventore quisquam temporibus dignissimos. Ipsa saepe libero similique
+          quam. Sed culpa, ad praesentium in nam mollitia sit odit. Animi,
+          recusandae quasi magni perspiciatis sequi, earum at sed, maxime
+          laudantium cumque architecto quas!
+        </p>
+      </section>
+      <section class="hero">
+        <img src="images/bg_hero.png.webp" alt="" />
+      </section>
+      <section class="chefs__section">
+        <h2 data-aos="fade-up">Meet the chefs</h2>
+        <div class="chefs grid grid--1x2">
+          <div class="chef__info">
+            <img class="chef__image" src="images/chef.jpg" alt="" />
+            <h3>Chef name</h3>
+            <p>Master Chef</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis quas ad quia. Architecto ipsa quam libero dolore
+              delectus, quod rem.
+            </p>
+            <div class="chefs__social">
+              <svg class="icon icon--small icon--accent">
+                <use xlink:href="images/sprite.svg#twitter"></use>
+              </svg>
+              <svg class="icon icon--small icon--accent">
+                <use xlink:href="images/sprite.svg#instagram"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="chef__info">
+            <img class="chef__image" src="images/chef1.jpg" alt="" />
+            <h3>Chef name</h3>
+            <p>Master Chef</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis quas ad quia. Architecto ipsa quam libero dolore
+              delectus, quod rem.
+            </p>
+            <div class="chefs__social">
+              <svg class="icon icon--small icon--accent">
+                <use xlink:href="images/sprite.svg#twitter"></use>
+              </svg>
+              <svg class="icon icon--small icon--accent">
+                <use xlink:href="images/sprite.svg#instagram"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="menu__section block" data-aos="fade-up">
+        <h2>Menu</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+          ipsum?
+        </p>
+        <ul class="list list--inline">
+          <li class="list__item"><a href="#">Breakfast</a></li>
+          <li class="list__item"><a href="#">Brunch</a></li>
+          <li class="list__item"><a href="#">Dinner</a></li>
+        </ul>
+        <div class="dish">
+          <img class="dish__image" src="images/bg5.jpg" alt="" />
+          <div class="dish-text">
+            <h3 class="dish__heading">dish name</h3>
+            <p class="dish__body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+              illum, error est culpa aut consequatur iure ducimus voluptatum
+              consectetur reprehenderit.
+            </p>
+          </div>
+          <p class="dish__price">10$</p>
+        </div>
+        <div class="dish">
+          <img class="dish__image" src="images/bg2.jpg" alt="" />
+          <div class="dish-text">
+            <h3 class="dish__heading">dish name</h3>
+            <p class="dish__body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+              illum, error est culpa aut consequatur iure ducimus voluptatum
+              consectetur reprehenderit.
+            </p>
+          </div>
+          <p class="dish__price">10$</p>
+        </div>
+        <div class="dish">
+          <img class="dish__image" src="images/bg5.jpg" alt="" />
+          <div class="dish-text">
+            <h3 class="dish__heading">dish name</h3>
+            <p class="dish__body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+              illum, error est culpa aut consequatur iure ducimus voluptatum
+              consectetur reprehenderit.
+            </p>
+          </div>
+          <p class="dish__price">10$</p>
+        </div>
+      </section>
+      <section class="block service__section">
+        <h2 data-aos="fade-up">Other services</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae,
+          quis.
+        </p>
+        <div class="grid grid--3x3">
+          <div class="service">
+            <img src="images/salad.png" alt="" data-aos="fade-up" />
+            <h3>service name</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+              sed aut eaque illum itaque sequi placeat velit maiores et fugiat!
+            </p>
+          </div>
+          <div class="service">
+            <img src="images/pan.png" alt="" data-aos="fade-up" />
+            <h3>service name</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+              sed aut eaque illum itaque sequi placeat velit maiores et fugiat!
+            </p>
+          </div>
+          <div class="service">
+            <img src="images/noodles.png" alt="" data-aos="fade-up" />
+            <h3>service name</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+              sed aut eaque illum itaque sequi placeat velit maiores et fugiat!
+            </p>
+          </div>
+          <div class="service">
+            <img src="images/service.png" alt="" data-aos="fade-up" />
+            <h3>service name</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+              sed aut eaque illum itaque sequi placeat velit maiores et fugiat!
+            </p>
+          </div>
+          <div class="service">
+            <img src="images/fast.png" alt="" data-aos="fade-up" />
+            <h3>service name</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+              sed aut eaque illum itaque sequi placeat velit maiores et fugiat!
+            </p>
+          </div>
+          <div class="service">
+            <img src="images/veg.png" alt="" data-aos="fade-up" />
+            <h3>service name</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+              sed aut eaque illum itaque sequi placeat velit maiores et fugiat!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="reservation block">
+        <h2>Reservation</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, amet.
+        </p>
+        <div class="reservation__info grid grid--3x3">
+          <div class="input-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="input-group">
+            <label for="name">Email</label>
+            <input type="email" id="email" />
+          </div>
+          <div class="input-group">
+            <label for="name">Phone</label>
+            <input type="number" id="phone" />
+          </div>
+          <div class="input-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="input-group">
+            <label for="name">Date</label>
+            <input type="date" id="date" />
+          </div>
+          <div class="input-group">
+            <label for="name">Time</label>
+            <input type="time" id="time" />
+          </div>
+        </div>
+        <a class="btn btn--accent btn--outline btn--stretched" href="#">
+          Reserve Now</a
+        >
+      </section>
     </main>
+    <footer class="footer grid grid--3x3">
+      <div class="About">
+        <h4>About Meal</h4>
+        <p>
+          The Big Oxmox advised her not to do so, because there were thousands
+          of bad Commas, wild Question Marks and devious Semikoli, but the
+          Little Blind Text didnt listen.
+        </p>
+        <a class="btn btn--accent btn--outline btn--small" href="#"
+          >Read More</a
+        >
+      </div>
+      <div class="our-service">
+        <h4>Lunch Service</h4>
+        <p>Booking from 12:00pm — 1:30pm</p>
+        <h4>Dinner Service</h4>
+        <p>Everyday: Booking from 6:00pm — 9:00pm</p>
+      </div>
+      <div class="follow-us">
+        <h4>Follow Along</h4>
+        <div class="chefs__social">
+          <svg class="icon icon--small icon--accent">
+            <use xlink:href="images/sprite.svg#instagram"></use>
+          </svg>
+          <svg class="icon icon--small icon--accent">
+            <use xlink:href="images/sprite.svg#twitter"></use>
+          </svg>
+        </div>
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+        </div>
+      </div>
+      <p>Copyright &copy;2023 All rights reserved</p>
+    </footer>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
