@@ -344,7 +344,7 @@ input:focus, input:hover {
 
 .logo {
     font-size: 30px;
-    width: 70xpx;
+    width: 70px;
     height: 70px;
     color: var(--color-heading);
     font-weight: 700;
