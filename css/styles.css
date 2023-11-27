@@ -150,7 +150,9 @@ a {
 }
 
 .icon--accent {
-    fill: var(--color-accent);
+    background-color: red;
+    border-radius: 100%;
+    padding: 2px;
 }
 
 .icon--white {
